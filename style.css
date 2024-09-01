@@ -1,0 +1,153 @@
+/* header */
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 1600px;
+  width: 1100px;
+  margin: auto;
+}
+.banner {
+  background: cornflowerblue url("/images/banner/banner3.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner > .container {
+  height: 100vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.banner-container {
+  text-align: right;
+  width: 50%;
+}
+.tile, .call-title ,.footer-title2, .ft  {
+  font-family: "Work Sans";
+  font-weight: 700;
+  font-size: 35px;
+  color: #ffffff;
+}
+.description {
+  padding-bottom: 20px;
+}
+.btn {
+  border-radius: 3px;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
+  text-decoration: none;
+  padding: 8px 24px;
+  color: rgb(255, 0, 212);
+  cursor: pointer;
+}
+
+.container-2 {
+  display: flex;
+
+  justify-content: right;
+  align-items: center;
+}
+.person-bio,
+.person {
+  padding: 0 60px 0 80px;
+}
+.person-bio {
+  margin-right: 100px;
+}
+.person-bio-point {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  padding: 10px;
+}
+.my-plans-title {
+ 
+
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin: 30px auto 0;
+  border: 2px solid;
+  border-radius: 6px;
+width: 150px;
+background-color: aqua;
+
+}
+
+.my-plans-container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 70px;
+  margin-top: 50px;
+  margin-left: 170px;
+  margin-right: 170px;
+  padding-bottom: 20px;
+}
+.call-title-banner {
+  background: url(images/gradient1.png), url(images/watch.png);
+  background-repeat: no-repeat;
+
+  margin-left: 170px;
+  margin-right: 170px;
+  display: flex;
+  align-items: center;
+  height: 304px;
+  padding-left: 50px;
+}
+
+.call-title{
+  padding-bottom: 5px;
+}
+.footer-section{
+  margin-top: 100px;
+  background-color: #151414;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.footer-title{
+  /* padding-left: 155px;
+  padding-right: 200px; */
+  margin-left: 170px;
+  margin-right: 170px;
+}
+.footer-title2{
+   padding-right: 130px; 
+  margin-left: 170px;
+  margin-right: 170px;
+}
+.btn-2{
+  border-radius: 3px;
+  background-color: #005fac;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
+  text-decoration: none;
+  padding: 8px 24px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+.txt{
+  padding: 10px 90px 16px 16px;
+  border: 1px solid rgb(255, 0, 144);
+  border-radius: 4px;
+  
+}
+.footer-description,.footer-para, .footer-para2{
+  padding: 9px;
+  color: aliceblue;
+}
+.ft{
+  margin-left: 9px;
+}
+.icon2,.icon3{
+  margin-top: 20px;
+  padding-left: 15px;
+}
